@@ -1,24 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
+    <title>Css</title>
+
+    <!--internal css -->
+    <style type="text/css">
+        h2 {
+            background-color: orange;
+        }
+
+        p {
+            color: indianred;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+        }
+
+        .masirika {
+            background-color: violet;
+            font-weight: bolder;
+            color: white;
+        }
+
+        .shuruma{
+            background-color: green;
+            color: orange;
+        }
+
+        #musonda{
+            text-decoration: orangered;
+            text-align:center ;
+            color: blue;
+            background-color: #fff;
+        }
+
+    </style>
+
 </head>
+
 <body>
-   <h1 style="color:blue; font-family: Verdana, Geneva, Tahoma, sans-serif
+    <h1 style="color:blue; font-family: Verdana, Geneva, Tahoma, sans-serif
    ;  text-align: center;">Introduction to css</h1>
-   <P>Css in full stands for cascading style sheet</P>
-   <p style="font-style: italic; font-weight: bold; color: green;">We arelearning css and it is used for styling our webpages</p>
-   <p>There are three main ways of inserting css in a web page and these are</p>
-    <ul>
-        <li>Inline css</li>
-        <li>Internal Css</li>
-        <li>External css</li>
-       
+
+    <!-- SAMPLE INTERNAL CSSS-->
+
+    <h2 id="musonda">Internal CSS</h2>
+    <p>Internal css uses selectors to target different elements in a web page</p>
+
+    <p style="color:yellowgreen">These selectors include the following</p>
+
+    <p>we are learning howto use the class selector in css</p>
+
+    <p class="masirika">this is the first class called masirika</p>
+
+    <p class="shuruma">this is a nother class called shuruma</p>
+
+    <h2 class="masirika">this h2 is styled via class mbaje</h2>
+
+    <ul class="shuruma">
+        <li>Element selector</li>
+        <li>Id selector</li>
+        <li>Class selector</li>
+
     </ul>
 
 </body>
+
 </html>
