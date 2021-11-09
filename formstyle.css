@@ -1,0 +1,21 @@
+.regform{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(14, 9, 78);
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+.inputs{
+    width: 100%;
+
+}
+button{
+    background-color: rgb(255, 255, 78);
+    width: 50%;
+}
